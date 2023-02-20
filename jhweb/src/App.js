@@ -1,9 +1,16 @@
-import React from 'react';
-import './App.css';
+import {Route, Routes} from "react-router-dom"
+import { AboutUs } from "./pages/Aboutus";
+import { Home } from "./pages/Home";
+import { Practitioner } from "./pages/Practitioner";
 
 function App() {
   return (
-    <h1>logo</h1>
+
+    <Routes>
+      <Route path = "/" element={<Home />} />
+      <Route path = "/aboutus" element={<AboutUs />} />
+      <Route path = "/practitioner" element={<Practitioner />} />
+    </Routes>
   );
 }
 
