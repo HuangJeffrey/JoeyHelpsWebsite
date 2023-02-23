@@ -1,16 +1,25 @@
-import {Route, Routes} from "react-router-dom"
+import { Route, Routes } from "react-router-dom";
 import { AboutUs } from "./pages/Aboutus";
 import { Home } from "./pages/Home";
-import { Practitioner } from "./pages/Practitioner";
+import { Event } from "./pages/Event";
+import { Resources } from "./pages/Resources";
+import { Sign_Up } from "./pages/Sign_Up";
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
-
-    <Routes>
-      <Route path = "/" element={<Home />} />
-      <Route path = "/aboutus" element={<AboutUs />} />
-      <Route path = "/practitioner" element={<Practitioner />} />
-    </Routes>
+    <div>
+      <Helmet>
+        <title>JoeyHelps</title>
+      </Helmet>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/event" element={<Event />} />
+        <Route path="/resources" element={<Resources />} />
+        <Route path="/sign_up" element={<Sign_Up />} />
+      </Routes>
+    </div>
   );
 }
 

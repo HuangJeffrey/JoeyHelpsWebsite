@@ -1,11 +1,11 @@
 import { Header } from "../view/Header";
 import { Footer } from "../view/Footer";
 
-export function AboutUs() {
+export function Event() {
   return (
     <div>
       <Header />
-      <h1>About Us</h1>
+      <h1>Event</h1>
       <Footer />
     </div>
   );

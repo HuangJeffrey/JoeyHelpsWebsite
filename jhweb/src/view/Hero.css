@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero_one {
+  height: 650px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 160px;
+  padding-right: 140px;
+}
+
+.box {
+  height: 600px;
+  width: 500px;
+  border-radius: 35px;
+  background-color: #d9d9d9;
+}
+
+.description_box {
+  text-align: right;
+  position: relative;
+  left: -100px;
+  top: 80px;
+  font-size: larger;
+}
+
+.Joey {
+  font-family: "Lexend Deca";
+  font-size: 85px;
+}
+
+.Helps {
+  font-family: "Lexend Deca";
+  font-size: 60px;
+}
+
+.description {
+  font-family: "Lexend Deca";
+  font-size: 20px;
+}
+
+.hash {
+  font-family: "Lexend Deca";
+  font-size: 20px;
+}
+
+.hero_two {
+  height: 850px;
+}
+
+.our_values {
+  color: #cccccc;
+  font-size: 80px;
+  font-family: "Lexend Deca";
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+
+.values {
+  position: relative;
+  top: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 250px;
+}
+
+.value {
+  height: 170px;
+  width: 170px;
+  background-color: #acacac;
+  border-radius: 50%;
+}
+
+.education {
+  font-family: "Lexend Deca";
+  position: relative;
+  top: 180px;
+}
+
+.education_description {
+  top: 200px;
+  font-family: "Lexend Deca";
+  text-align: center;
+  position: relative;
+}
+
+.better_you {
+  font-family: "Lexend Deca";
+  position: relative;
+  top: 180px;
+}
+
+.better_you_description {
+  top: 200px;
+  font-family: "Lexend Deca";
+  text-align: center;
+  position: relative;
+}
+
+.connection {
+  font-family: "Lexend Deca";
+  position: relative;
+  top: 180px;
+}
+
+.connection_description {
+  top: 200px;
+  font-family: "Lexend Deca";
+  text-align: center;
+  position: relative;
+}
+
+.hero_three {
+  background-color: aqua;
+  height: 700px;
+}

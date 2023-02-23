@@ -4,23 +4,79 @@
   box-sizing: border-box;
 }
 
+.logos {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  position: relative;
+  height: 120px;
+  transition: 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+}
+
+.JoeyHelpsTitle {
+  font-family: "Lexend Deca";
+  font-size: 25px;
+}
+
 .container {
   padding: 15px 15px;
-  background-color: grey;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 120px;
 }
 
 .buttons {
-  background-color: green;
-  height: 100px;
   display: flex;
-  justify-content: space-between;
+  gap: 50px;
+}
+
+.specific_buttons {
+  border: none;
+  font-family: "Lexend Deca";
+  font-size: 20px;
+  background-color: white;
   align-items: center;
-  height: 80px;
-  gap: 2rem;
+  height: 60px;
+  width: 120px;
+  transition: 0.2s ease;
+}
+
+.specific_buttons:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+}
+
+.sign_up_button {
+  margin-right: 20px;
+  margin-left: 20px;
+  border: none;
+  color: white;
+  background-color: #c8b4e1;
+  font-family: "Lexend Deca";
+  align-items: center;
+  height: 60px;
+  font-size: 20px;
+  width: 200px;
+  border-radius: 25px;
+  transition: 0.2s ease;
+}
+
+.sign_up_button:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
 }
 
 
