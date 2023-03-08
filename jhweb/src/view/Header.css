@@ -22,11 +22,17 @@
 }
 
 .JoeyHelpsTitle {
+  color: white;
   font-family: "Lexend Deca";
   font-size: 25px;
 }
 
+.title_hash {
+  font-size: 20px;
+}
+
 .container {
+  background-color: #7896CA;
   padding: 15px 15px;
   display: flex;
   justify-content: space-between;
@@ -40,10 +46,11 @@
 }
 
 .specific_buttons {
+  color: white;
   border: none;
   font-family: "Lexend Deca";
   font-size: 20px;
-  background-color: white;
+  background-color: #7896CA;
   align-items: center;
   height: 60px;
   width: 120px;

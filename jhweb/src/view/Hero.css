@@ -8,115 +8,110 @@
   height: 650px;
   display: flex;
   justify-content: space-between;
-  padding-top: 20px;
-  padding-left: 160px;
-  padding-right: 140px;
-}
-
-.box {
-  height: 600px;
-  width: 500px;
-  border-radius: 35px;
-  background-color: #d9d9d9;
+  flex-basis: 80%;
 }
 
 .description_box {
-  text-align: right;
+  text-align: center;
   position: relative;
-  left: -100px;
-  top: 80px;
-  font-size: larger;
+  top: 70px;
+  width: 50%;
 }
 
-.Joey {
+.Joey_Helps {
   font-family: "Lexend Deca";
-  font-size: 85px;
+  font-size: 75px;
+  color: #7896ca;
 }
 
-.Helps {
-  font-family: "Lexend Deca";
-  font-size: 60px;
+.picture1 {
+  max-width: 100%;
+}
+
+.hero_one button {
+  height: 20px;
+  background-color: #7896ca;
+  color: white;
+  border: white;
+  width: 200px;
+  height: 60px;
+  transition: 0.2s ease;
+}
+
+.hero_one button:hover {
+  color: #7896ca;
+  background-color: white;
+  border-style: solid;
+  border-color: #7896ca;
 }
 
 .description {
   font-family: "Lexend Deca";
-  font-size: 20px;
+  font-size: 17px;
 }
 
-.hash {
+.moto {
   font-family: "Lexend Deca";
   font-size: 20px;
 }
 
 .hero_two {
-  height: 850px;
+  height: 1200px;
 }
 
-.our_values {
-  color: #cccccc;
+.team {
+  color: #7896ca;
   font-size: 80px;
   font-family: "Lexend Deca";
   text-align: center;
-  position: relative;
   top: 60px;
 }
 
-.values {
-  position: relative;
-  top: 140px;
+.VP_1 {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 250px;
+  justify-content: space-around;
 }
 
-.value {
-  height: 170px;
-  width: 170px;
-  background-color: #acacac;
-  border-radius: 50%;
-}
-
-.education {
-  font-family: "Lexend Deca";
-  position: relative;
-  top: 180px;
-}
-
-.education_description {
-  top: 200px;
-  font-family: "Lexend Deca";
+.VP_1 .name {
+  background-color: aqua;
+  height: 80px;
+  width: 250px;
   text-align: center;
-  position: relative;
+  background-color: #7896ca;
+  color: white;
+  font-size: 18px;
+  font-family: "Lexend Deca";
+  padding: 15px;
 }
 
-.better_you {
-  font-family: "Lexend Deca";
-  position: relative;
-  top: 180px;
+.VP_2 {
+  display: flex;
+  justify-content: space-around;
 }
 
-.better_you_description {
-  top: 200px;
-  font-family: "Lexend Deca";
+.VP_2 .name {
+  height: 75px;
+  width: 250px;
   text-align: center;
-  position: relative;
-}
-
-.connection {
+  background-color: #7896ca;
+  color: white;
+  font-size: 17px;
   font-family: "Lexend Deca";
-  position: relative;
-  top: 180px;
-}
-
-.connection_description {
-  top: 200px;
-  font-family: "Lexend Deca";
-  text-align: center;
-  position: relative;
+  padding: 15px;
 }
 
 .hero_three {
-  background-color: aqua;
-  height: 700px;
+  display: flex;
+  background-color: white;
+  height: 615px;
 }
+
+.fill_in div { 
+  width: 100px;
+  height: 40px;
+  margin: 50px;
+  background-color: #7896ca;
+}
+
+
+

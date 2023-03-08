@@ -13,6 +13,7 @@ export function Header() {
         </Link>
         <div className="JoeyHelpsTitle">
           <h1>JoeyHelps</h1>
+          <h8 className="title_hash">#HealthierMindsHappierPeople</h8>
         </div>
       </div>
 
